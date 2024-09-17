@@ -223,26 +223,27 @@ will likely refine your design to make your implementation easier to use.
       Answer, explain, and give at least one example:
       - Yes, I can. For example, the removeFromPlaylist method could be implemented using the addToPlaylist and getSongIndex methods.
 
-- Component Design #3: <!-- TODO: give component a name then delete this comment -->
+- Component Design #3: calendar
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - this component models how a calendar works
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - void addEvent(String name): creates event ID, adds to queue, asks for time details
+    - void removeEvent(int eventID): removes the event
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - void repeatEvent(int eventID): repeats a specified event
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, i suppose it could be mutable.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, it would likely rely on internal classes, not sure which ones yet though.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Maybe for things like the number of days in a month, and number of days in a year?
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, the secondary methods can be implemented using the kernel methods. The repeatEvent could be implemented using addEvent.
 
 ## Post-Assignment
 
