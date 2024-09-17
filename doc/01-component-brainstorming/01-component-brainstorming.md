@@ -92,24 +92,15 @@ do good work.
 > brainstorming. Plus it helps us get to know you better! Feel free to share
 > images in this section.
 
-<!-- TODO: briefly talk about your interests then delete this comment.
-Also, protip: you can preview what your response looks like by hitting
-the magnifying glass icon in the upper-right corner or pressing CTRL+K and
-then V. This kind of button combination is called a chord, for whatever
-reason -->
-
+In my career, I hope to work with deep learning and AI technologies, and maybe even do research in the field. Outside of that, I am interested in art. I like to spend time at cafes and bake all kinds of things as well. I also enjoy listening to various genres of music, and watching anime and k-dramas. 
 
 ## Assignment
-
-<!-- TODO: read the assignment section then delete this comment -->
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
 that may help you in your brainstorming. All of these components were made at
 some point by one of your peers, so you should feel confident that you can
 accomplish any of them.
-
-<!-- TODO: browse the list of possible projects then delete this comment -->
 
 There is no requirement that you use any of the components listed above.
 If you want to model something else, go for it! Very common early object
@@ -118,8 +109,6 @@ etc. Make of this whatever seems interesting to you, and keep in mind that
 you're just brainstorming right now. You do not have to commit to anything.
 
 ### Example Component
-
-<!-- TODO: review this example component then delete this comment -->
 
 To help you brainstorm a few components, we've provided an example below of a
 component you already know well: NaturalNumber. We highly recommend that you
@@ -187,23 +176,24 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: Cafe
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - This component will model how a cafe runs.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - getMenuPrice(int item)
+    - 
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - getOrderPrice(int orderNum)
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - No I don't think this should be mutable because I think it would just be one per cafe.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
-      Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      Answer and explain: 
+      - This would probably rely on a queue to track orders. I'm not really sure.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - No???
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
       - <!-- TODO: provide an argument then delete this comment -->
