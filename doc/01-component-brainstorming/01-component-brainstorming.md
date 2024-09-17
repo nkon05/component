@@ -180,23 +180,25 @@ will likely refine your design to make your implementation easier to use.
   - **Description**:
     - This component will model how a cafe runs.
   - **Kernel Methods**:
-    - getMenuPrice(int item)
-    - 
+    - double getMenuPrice(int item): returns price of an item
+    - boolean isReady(orderNum): returns true if the order is ready
   - **Secondary Methods**:
-    - getOrderPrice(int orderNum)
+    - double getOrderPrice(int orderNum): returns total cost of an order
+    - void orderFinished(int orderNum): removes the order from the Queue once finished
+    - int[] takeOrder(): returns array of all of the items in the order
+    - void makeOrder(int [] items): adds order to the Queue
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
       - No I don't think this should be mutable because I think it would just be one per cafe.
-    - Would this component rely on any internal classes (e.g., `Map.Pair`)?
-      Answer and explain: 
+    - Would this component rely on any internal classes (e.g., `Map.Pair`)? Answer and explain: 
       - This would probably rely on a queue to track orders. I'm not really sure.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
       - No???
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, I can implement my secondary methods using my kernel methods because my kernal methods are more general, while my secondary methods are more specific. One example is that the getOrderPrice method would use the getMenuPrice for each item in the order.
 
 
 - Component Design #2: <!-- TODO: give component a name then delete this comment -->
