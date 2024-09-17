@@ -61,8 +61,6 @@ project. Specifically, students should be able to:
 
 ## Assignment Rubric: 10 Points
 
-<!-- TODO: read the assignment rubric then delete this comment -->
-
 Again, to be completely transparent, most of the portfolio project, except the
 final submission, is designed as a formative assessment. Formative assessments
 are meant to provide ongoing feedback in the learning process. Therefore,
@@ -201,27 +199,29 @@ will likely refine your design to make your implementation easier to use.
       - Yes, I can implement my secondary methods using my kernel methods because my kernal methods are more general, while my secondary methods are more specific. One example is that the getOrderPrice method would use the getMenuPrice for each item in the order.
 
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
+- Component Design #2: Music Playlist
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - this component models the way songs are organized in a playlist
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - int getSongIndex(int songID): returns the index of the song in the playlist
+    - void addToPlaylist(int songID): adds the specified song to the playlist
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - void removeFromPlaylist(int songID): if the song is in the playlist, it is removed
+    - void shufflePlaylist(): shuffles the playlist
+    - void queueSong(): adds song to queue
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, this component would be mutable I think- not really sure.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - This would probably rely on queue.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - No, I don't think so.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
-
+      - Yes, I can. For example, the removeFromPlaylist method could be implemented using the addToPlaylist and getSongIndex methods.
 
 - Component Design #3: <!-- TODO: give component a name then delete this comment -->
   - **Description**:
